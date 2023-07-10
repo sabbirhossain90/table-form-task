@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Button</title>  
+    <style>
+        label{
+            display: block;
+        }
+        h1{
+            text-decoration: underline;
+        }
+        tr>td{
+            border: 1px solid black;
+            padding: 10px;
+            
+        }
+        table{
+            border-collapse: collapse;
+        }
+th{
+    border: 1px solid black;
+}
+    </style>
+</head>
+<body>
+    <h1>Chart of Student Result</h1>
+    <table>
+        <thead>
+            <th>No.</th>
+            <th>Name</th>
+            <th>Roll</th>
+            <th>Section</th>
+        </thead>
+        <tr>
+            <td>1</td>
+            <td>Sabbir</td>
+            <td>03</td>
+            <td>Science</td>
+            
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Abir</td>
+            <td>05</td>
+            <td>Arts</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Konok</td>
+            <td>09</td>
+            <td>Science</td>
+        </tr>
+        <tr>
+            <td>04</td>
+            <td>Tomal</td>
+            <td>08</td>
+            <td>Arts</td>
+        </tr>
+        <tfoot>
+            <tr>
+                <td colspan="3">Totall roll=25</td>
+            </tr>
+        </tfoot>
+    </table>
+   <main>
+    <section>
+        <h1 style="text-decoration: underline;">Student form fillup chart</h1>
+        <form>
+            <label for="name">Your name:
+                <input type="name" id="name" placeholder="input your name">
+            </label>
+            
+            <label for="Roll">Your roll:
+                <input type="roll" id="roll" placeholder="input your roll">
+            </label>
+            <fieldset>
+                <legend>
+                    Select your Gender
+                </legend>
+                <label for="male">Male
+                    <input id="male" type="radio" name="manush">
+                </label>
+                <label for="famale">Famale
+<input id="famale" type="radio" name="manush">
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Pick your favourite game
+                </legend>
+                <label for="cricker">cricket
+                    <input id="cricket" type="checkbox" name="game">
+                </label>
+                <label for="football">football
+                    <input id="football" type="checkbox" name="game">
+                </label>
+                <label for="volleyball">volleyball
+                    <input id="volleyball" type="checkbox" name="volleyball">
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Student discussion</legend>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </fieldset>
+            <input style="background-color: cornflowerblue;" id="reset" type="reset" name="reset">
+            <input style="background-color: brown;" id="submit" type="submit" name="submit">
+                
+        </form>
+    </section>
+   </main>
+    
+</body>
+</html>
